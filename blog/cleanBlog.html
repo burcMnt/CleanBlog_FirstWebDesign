@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #first {
+            margin: 0%;
+            height: 650px;
+            background-image: url("home-bg.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            display: block;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+            margin-right: 100px;
+            align-items: flex-end;
+            float: right;
+        }
+
+        li {
+            float: right;
+            font-size: 20px;
+        }
+
+        li a.aclas {
+            margin-top: 30px;
+            display: block;
+            color: white;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a.aclas:hover {
+            color: whitesmoke;
+        }
+
+        #sol {
+            margin-top: 100px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+            margin-left: 100px;
+            float: left;
+
+        }
+
+        #solitem {
+            float: left;
+            font-size: 1.5rem;
+        }
+
+        #solitem a {
+            margin-top: 30px;
+            display: block;
+            color: white;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 16px;
+            text-decoration: none;
+
+        }
+
+        #solitem a:hover {
+            color: whitesmoke;
+        }
+
+        #firstHead {
+            font-size: 5rem;
+            font-weight: 800;
+            line-height: 1.2;
+            position: absolute;
+            color: white;
+            top: 35%;
+            left: 35%;
+            text-align: center;
+        }
+
+        span {
+            font-size: 1.5rem;
+            font-weight: 500;
+            line-height: 2;
+            position: absolute;
+            color: white;
+            top: 55%;
+            left: 38%;
+            text-align: center;
+
+        }
+
+        div {
+            border: hidden;
+            width: auto;
+            height: 150px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .line {
+            opacity: 0.5;
+            margin-top: 1.5rem;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: rgb(120, 179, 202);
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+
+        #btn:link,
+        #btn:visited {
+            background-color: #0f7cbb;
+            color: white;
+            padding: 15px 35px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        #btn:hover,
+        #btn:active {
+            background-color: #0f7cbb;
+            border: solid;
+            border-color: turquoise;
+        }
+
+        #btn {
+            float: right;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        #btn1:link,
+        #btn1:visited {
+
+            padding: inherit;
+            display: inline-block;
+
+        }
+
+        #btn1:hover,
+        #btn1:active {
+            background-color: transparent;
+
+        }
+
+        #btn1,
+        #btn2,
+        #btn3 {
+            float: initial;
+            margin-bottom: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="first">
+        <ul id="sol">
+            <li id="solitem"><a href="#StartBootstrap">Start Bootstrap</a></li>
+        </ul>
+        <ul>
+            <li><a class="aclas" href="#CONTACT">CONTACT</a></li>
+            <li><a class="aclas" href="#SAMPLE POST">SAMPLE POST</a></li>
+            <li><a class="aclas" href="#ABOUT">ABOUT</a></li>
+            <li><a class="aclas" href="#HOME">HOME</a></li>
+        </ul>
+
+        <h1 id="firstHead">Clean Blog</h1>
+        <span>A Blog Theme by Start Bootstrap</span>
+
+    </div>
+
+    <div style="box-sizing: content-box;padding-left: 500px;padding-right: 500px; text-align: left;">
+
+        <div>
+            <a href="">
+
+                <h2>Man must explore, and this is exploration at its greatest</h2>
+                <h3 style="text-align: center;color: grey;">Problems look mighty small from 150 miles up</h3>
+                <p style="text-align: center;color:grey">"Posted by" <a href="#StartBootstrap">Start Bootstrap</a> "on
+                    September 24, 2021"</p>
+            </a>
+            <hr class="line">
+        </div>
+        <div>
+            <a href="">
+                <h2>I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2>
+                <p style="text-align: center;color:grey">"Posted by" <a href="#StartBootstrap">Start Bootstrap</a> "on
+                    September 18, 2021</p>
+            </a>
+            <hr class="line">
+        </div>
+        <div>
+            <a href="">
+                <h2>Science has not yet mastered prophecy</h2>
+                <h3 style="text-align: center;color: grey;">We predict too much for the next year and yet far too little
+                    for
+                    the next ten.</h3>
+                <p style="text-align: center;color:grey">"Posted by" <a href="#StartBootstrap">Start Bootstrap</a> "on
+                    August 24, 2021</p>
+            </a>
+            <hr class="line">
+        </div>
+
+        <div>
+            <a href="">
+                <h2>Failure is not an option</h2>
+                <p style="text-align: center;color:grey">"Posted by" <a href="#StartBootstrap">Start Bootstrap</a> "on
+                    July
+                    8, 2021</p>
+            </a>
+            <hr class="line">
+
+            <a id="btn" href="default.asp" target="_blank">OLDER POST➦</a>
+
+        </div>
+        <hr class="line">
+
+        <div>
+            <a id="btn1" href="https://twitter.com/?lang=tr" target="_blank"> <img src="twttr.png" alt="Twitter"
+                    height="80px" width="80px">
+            </a>
+            <a id="btn2" href="https://www.facebook.com" target="_blank"> <img src="fb.png" alt="Facebook" height="80px"
+                    width="80px">
+
+            </a>
+            <a id="btn3" href="https://github.com/" target="_blank"> <img src="git.png" alt="Github" height="80px"
+                    width="80px">
+            </a>
+
+            <div style="text-align: center; color: grey; font-size: 20px;">Copyright © Your Website 2021</div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
